@@ -1,13 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Graphics</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        var simsubscreennum=0;
+        var temp=0;
+    </script>
 </head>
 <body>
-		<!-- Your code goes here-->
+<!--Simulation Screen start		-->
+<div id="simscreen">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
-</html>
+    <!--Title of Simulation		-->
+    <div id="title"><h3>Isometric to Orthographic view</h3></div>
+    
+    <!--SubScreen Home	-->
+    <div class="simsubscreen" id="canvas0">
+    <h4 id="objective">Objective:</h4>
+    <p class="incanvas" style="font-weight: 500;font-size: 18px;">To Convert Isometric to Orthographic Projection </p>
+    <h4 id="apparatus" >Apparatus used:</h4>
+    <p class="incanvas" style="font-weight: 500;font-size: 18px;">Drawing Compass, Drafter, Pencil, Ruler etc.</p>
+    <img id="compass"class="as" style="width: 100px;height: 140px; top: 250px;position: absolute;"  src="./images/compass1.jpeg">
+    <img id="drafter" class="as" style="width: 280px;height: 160px; top: 270px;position: absolute;left: 200px;"  src="./images/Drafter.jpeg">
+    <img id="ruler" class="as"  style="width: 120px;height: 90px;position: absolute;top:260px;left: 530px;background-color: white;" src="./images/ruler2.png">
+     
+    </div>
+    
+    <!--Step1	-->
+    <div class="simsubscreen" id="canvas1" style="visibility:hidden">
+    <p id="pumptext" class="steptext incanvas" style="font-size:14px;">
+        <strong id="titlestep" class="incanvas">STEP</strong>
+        <span class="circlebg" id="stepnumber">&nbsp;1&nbsp;</span> 
+        <span id="text" class="steptext ">Draw the front view</span></p>
+        <canvas id="can" class="canvases" width="700" height="500"></canvas>
+        <img id="question" src="images/question.png"/>
+        <button type="button" onclick="a();"  class="label" id="a"><img src="images/Next.png" /> </button>
+        <button type="button" onclick="c();"  class="label" id="b"><img src="images/Next.png" /></button>
+        <button type="button" onclick="b();"  class="label" id="c"><img src="images/Next.png" /></button>
+        <button type="button" onclick="d();"  class="label" id="d"><img src="images/Next.png" /></button>
+        <button type="button" onclick="e();"  class="label" id="e"><img src="images/Next.png" /></button>
+        <button type="button" onclick="f();"  class="label" id="f"><img src="images/Next.png" /></button>
+        <!-- <img id="eye"style="position: absolute;width:20px;top:100px;left:550px;" src="images/eye1.jpg" /> -->
+        <p id="supptext" class="steptext incanvas" style=" position: relative; left: 595px; top: 190px; font-size:12px;">Isometric view</p>
+    </div>
+    
+    
+    <!--next  Arrow	-->
+    <div id="nav">
+        <img id="nextButton" onclick="navNext(); " src="images/Next.png" />
+        <img id="reset" onclick="navNext(); " src="images/bluecwdull.png" />
+    </div>
+
+    
+    <div id="copyright" style="position: absolute;left:250px;top: 577px;font-size:12px"> &copy; <script>document.write(` new Date().getFullYear()` );</script>
+        SOLVE - The Virtual Lab @ NITK Surathkal</div>
+    <script src="./js/sample1.js"></script>
+    </body>
+    </html>
+    
