@@ -16,7 +16,58 @@
         "d": ""
       },
       "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Is this an orthographic or isometric view ? '<br> <img src=\"./images/image19.png\" width=300/>'",
+      "answers": {
+        "a": "Isometric projection",
+        "b": "Orthographic projection",
+        "c": "Neither of those",
+        "d": "Need more information"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Recognize the view of the given figure. '<br> <img src=\"./images/image26.png\" width=250/>'",
+      "answers": {
+        "a": "Top view",
+        "b": "Right side view",
+        "c": "Left side view",
+        "d": "Front view"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "In orthographic projection, the projection lines are ________ to the projection plane.",
+      "answers": {
+        "a": "Parallel",
+        "b": "Orthogonal",
+        "c": "Inclined",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }

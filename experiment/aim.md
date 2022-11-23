@@ -1,1 +1,1 @@
-**AIM**: To draw Orthographic Projections from Isometric views.
+To draw Orthographic Projections from Isometric views.
