@@ -37,6 +37,8 @@ function boom() {
   ctx.font = "500 20px Comic Sans MS";
   ctx.fillText("VP", 100, 260);
   ctx.fillText("HP", 100, 320);
+  ctx.fillText("X", 50, 290);
+  ctx.fillText("Y", 610, 290);
   ctx.moveTo(70, 280);
   ctx.lineTo(600, 280);
 
@@ -292,14 +294,14 @@ function e() {
   ctx.fillStyle = "orange";
   ctx.strokeStyle = "black";
   ctx.lineWidth = 1;
-  ctx.moveTo(380 - 40, 135);
-  ctx.lineTo(380 - 40, 245);
+  ctx.moveTo(600 - 40, 135);
+  ctx.lineTo(600 - 40, 245);
   ctx.stroke();
-  ctx.moveTo(560 - 40, 195);
-  ctx.lineTo(560 - 40, 245);
+  ctx.moveTo(576 - 40, 195);
+  ctx.lineTo(576 - 40, 245);
   ctx.stroke();
-  ctx.moveTo(395 - 40, 440);
-  ctx.lineTo(545 - 40, 440);
+  ctx.moveTo(395 - 40, 450);
+  ctx.lineTo(545 - 40, 450);
   ctx.stroke();
   ctx.moveTo(395 - 40, 120);
   ctx.lineTo(445 - 40, 120);
@@ -307,12 +309,12 @@ function e() {
   ctx.moveTo(330 - 210 * Math.sin(Math.PI / 4) - 40, 120);
   ctx.lineTo(330 - 40 * Math.sin(Math.PI / 4) - 40, 120);
   ctx.stroke();
-  canvas_arrow(ctx, 380 - 40, 130, 380 - 40, 245, 5);
-  canvas_arrow(ctx, 380 - 40, 245, 380 - 40, 135, 5);
-  canvas_arrow(ctx, 560 - 40, 135, 560 - 40, 245, 5);
-  canvas_arrow(ctx, 560 - 40, 245, 560 - 40, 195, 5);
-  canvas_arrow(ctx, 390 - 40, 440, 545 - 40, 440, 5);
-  canvas_arrow(ctx, 560 - 40, 440, 395 - 40, 440, 5);
+  canvas_arrow(ctx, 600 - 40, 130, 600 - 40, 245, 5);
+  canvas_arrow(ctx, 600 - 40, 245, 600 - 40, 135, 5);
+  canvas_arrow(ctx, 576 - 40, 135, 576 - 40, 245, 5);
+  canvas_arrow(ctx, 576 - 40, 245, 576 - 40, 195, 5);
+  canvas_arrow(ctx, 390 - 40, 450, 545 - 40, 450, 5);
+  canvas_arrow(ctx, 560 - 40, 450, 395 - 40, 450, 5);
   canvas_arrow(ctx, 390 - 40, 120, 445 - 40, 120, 5);
   canvas_arrow(ctx, 560 - 40, 120, 395 - 40, 120, 5);
   canvas_arrow(
@@ -335,7 +337,7 @@ function e() {
   ctx.beginPath();
   ctx.strokeStyle = "black";
   ctx.fillText("15", 410 - 40, 112);
-  ctx.fillText("40", 460 - 40, 455);
+  ctx.fillText("40", 460 - 40, 445);
   ctx.fillText("30", 330 - 120 * Math.sin(Math.PI / 4) - 50, 115);
   ctx.closePath();
   ctx.save();
@@ -343,8 +345,8 @@ function e() {
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
 
-  ctx.translate(330, 190);
-  ctx.rotate(Math.PI / 2);
+  ctx.translate(550, 190);
+  ctx.rotate(-Math.PI / 2);
   ctx.fillText("30", 0, 0);
 
   ctx.restore();
@@ -353,8 +355,8 @@ function e() {
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
   ctx.font = " 12px Arial";
-  ctx.translate(530, 220);
-  ctx.rotate(Math.PI / 2);
+  ctx.translate(525, 220);
+  ctx.rotate(-Math.PI / 2);
   ctx.fillText("15", 0, 0);
 
   ctx.restore();
