@@ -1,0 +1,11 @@
+
+/home/runner/work/exp-Isometric-to-orthographic-view-nitk/exp-Isometric-to-orthographic-view-nitk/experiment/simulation/js/sample1.js
+    3:10  warning  'navNext' is defined but never used  no-unused-vars
+  102:10  warning  'a' is defined but never used        no-unused-vars
+  123:10  warning  'b' is defined but never used        no-unused-vars
+  177:10  warning  'c' is defined but never used        no-unused-vars
+  229:10  warning  'd' is defined but never used        no-unused-vars
+  270:10  warning  'e' is defined but never used        no-unused-vars
+
+✖ 6 problems (0 errors, 6 warnings)
+
