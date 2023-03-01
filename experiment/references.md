@@ -6,9 +6,9 @@
   <tr style="background-color: white">
     <td>
     <ol>
-    <li>https://nptel.ac.in/courses/112/103/112103019/</li>
-    <li>http://www.iitg.ac.in/kpmech/ME111-2016/</li>
-    <li>https://egkit.com/2017/04/01/projection-of-lines/</li>
+    <li><a href="https://nptel.ac.in/courses/112/103/112103019/">https://nptel.ac.in/courses/112/103/112103019/</a></li>
+    <li>Engineering Drawing by N.D Bhatt</li>
+    <li>APA Citation style: Panchal, V. M., Bhatt, N. D. (2010). Engineering Drawing ; Plane and Solid Geometry. India: Charotar Publishing House Pvt. Limited.</li>
     </ol>
    </td>
     <td>Developer : Dr. K V Gangadharan | NITK</br></br>
