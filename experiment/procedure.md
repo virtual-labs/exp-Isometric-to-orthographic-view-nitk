@@ -1,28 +1,20 @@
-1. Click on **Isometric projection** the following window will
-   open. Click on the **NEXT** button to proceed.
+### Procedure
 
-   ![](./images/image22.png)
+<div style="text-align:left">
+  Click on the Objective icon <img src="images/objecticon.png" alt="Alt text" style="height:80px; width:80px;">  to view the objective of the simulation. 
 
-2. By Pressing the Button NEXT you can proceed to the next step of
-   construction.  
-   By pressing the NEXT button again, We proceed to Step 2.
+   ![Alt text](images/objectscreen.png)
+   
+   Click on the Apparatus icon <img src="images/apparatus-icon.png" alt="Alt text" style="height:80px; width:80px;">  to check the tools required for this simulation.
 
-   ![](./images/image21.png)
+   ![Alt text](images/appratus_screen.png)
 
-3. Here similarly by pressing the Next button we proceed to step.
-   In the right-hand corner, a Reset button
+  Click on the Solution icon <img src="images/solutions-icon.png" alt="Alt text" style="height:80px; width:80px;"> to proceed with further simulation steps.
 
-   ![](./images/image.png) **gets active here.**
+  ![Alt text](images/solution_screen.png)
 
-   ![](./images/image29.png)
+   Evaluate and choose the correct answer to proceed with further steps, click on the Next button <img src="images/nextButtonIcon.png" alt="Alt text" style="height:80px; width:80px;">
 
-4. Finally, after following all the steps, we reach the final
-   projection.
+  After performing the experiment, click on the Reset button <img src="images/resetButton-icon.png" alt="Alt text" style="height:80px; width:80px;"> to restart the experiment.
 
-   ![](./images/image1.4.png)
-
-5. At any step in between, if the Reset
-   button ![](./images/image.png) gets clicked, the whole board resets
-   to Step 1.
-
-   ![](./images/image21.png)
+</div>
