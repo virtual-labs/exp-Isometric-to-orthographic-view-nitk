@@ -10,10 +10,10 @@
         "d": "<img src=\"./images/image10.png\" width=80/>"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b).",
+        "b": "Correct, the right answer is (b).",
+        "c": "The right answer is (b).",
+        "d": "The right answer is (b)."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -27,10 +27,10 @@
         "d": "Need more information"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b).",
+        "b": "Correct, the right answer is (b).",
+        "c": "The right answer is (b).",
+        "d": "The right answer is (b)."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -44,10 +44,10 @@
         "d": "Front view"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -61,10 +61,10 @@
         "d": "All of the above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). The projection lines are not parallel but perpendicular to the projection plane.",
+        "b": "Correct, the right answer is (b). In orthographic projection, the projection lines are perpendicular or orthogonal to the projection plane.",
+        "c": "The right answer is (b). If the projection lines were inclined, it would result in distortion of the object’s dimensions in the projection. This is because the angle of inclination would introduce a perspective effect, causing different parts of the object to appear larger or smaller depending on their distance from the projection plane.",
+        "d": "The right answer is (b). No, The projection lines are only perpendicular to the projection plane."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"

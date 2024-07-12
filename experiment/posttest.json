@@ -10,10 +10,10 @@
         "d": "Top,Front and Left side"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view.",
+        "b": "The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view.",
+        "c": "The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view.",
+        "d": "The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "<img src=\"./images/image20.png\" width=150/>"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -44,10 +44,10 @@
         "d": "Need more information"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b).",
+        "b": "Correct, the right answer is (b).",
+        "c": "The right answer is (b).",
+        "d": "The right answer is (b)."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -61,10 +61,10 @@
         "d": "<img src=\"./images/image4.png\" width=120/>"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
@@ -78,10 +78,10 @@
         "d": "view"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (c).",
+        "b": "The right answer is (c).",
+        "c": "Correct, The right answer is (c).",
+        "d": "The right answer is (c)."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
