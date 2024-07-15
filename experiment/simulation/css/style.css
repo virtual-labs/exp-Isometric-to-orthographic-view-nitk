@@ -570,7 +570,9 @@ canvas {
   grid-template-columns: 80fr 20fr;
   gap: 2rem;
 }
-
+.anim{
+  animation: highlight 1s infinite;
+}
 .var-spinner {
   justify-self: center;
 }

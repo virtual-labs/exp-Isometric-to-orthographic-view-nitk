@@ -333,13 +333,15 @@ function checkAnswer(ele, index, answer, buttonClass) {
   optionSelected.classList.remove("correct");
   if (index === answer) {
     optionSelected.classList.add("correct");
+    buttonClass.classList.add("anim");
     buttonClass.classList.remove("hide");
     validateAnswer.innerHTML = "Right answer👍";
     answersDiv.appendChild(validateAnswer);
   } else {
     optionSelected.classList.add("wrong");
+    buttonClass.classList.remove("anim");
     buttonClass.classList.add("hide");
-    validateAnswer.innerHTML = "Worng answer, please check the options again👎";
+    validateAnswer.innerHTML = "Wrong answer, please check the options again👎";
     answersDiv.appendChild(validateAnswer);
   }
 }
