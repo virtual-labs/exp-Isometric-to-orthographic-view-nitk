@@ -124,6 +124,7 @@ const answersDiv = document.querySelector(".answers");
 const questionBtnDiv = document.querySelector(".question-btn");
 const practiceDiv = document.querySelector(".practice");
 const canvas = document.querySelector("#simscreen");
+const taskTitle = document.querySelector(".task-title");
 const ctx = canvas.getContext("2d");
 let currentStepCount = 1;
 let currentStep;
@@ -171,13 +172,16 @@ function displayDiv(ele) {
   });
   if (ele.classList.contains("tool-objective")) {
     document.querySelector(".objective").classList.remove("hide");
+    taskTitle.textContent = "Objective";
   }
   if (ele.classList.contains("tool-apparatus")) {
     document.querySelector(".apparatus").classList.remove("hide");
+    taskTitle.textContent = "Apparatus";
   }
   if (ele.classList.contains("tool-practice")) {
     document.querySelector(".practice").classList.remove("hide");
     if (currentStep === undefined) initialSetup();
+    taskTitle.textContent = "Solution";
   }
 }
 

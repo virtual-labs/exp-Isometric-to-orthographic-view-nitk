@@ -98,6 +98,7 @@ h1 {
   padding: 1.2rem 1.6rem;
   border-radius: 0.9rem;
   left: 0;
+  cursor: pointer;
 }
 
 .logo-div {
@@ -377,6 +378,7 @@ h1 {
   border-radius: 1rem;
   cursor: pointer;
   transition: all 0.2s;
+  border: 0.2rem solid transparent;
   justify-self: center;
 }
 #question {
@@ -400,7 +402,7 @@ h1 {
   );
   background-clip: text;
   color: transparent;
-  border: 0.3rem solid var(--clr-title-background);
+  border: 0.2rem solid var(--clr-title-background);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
 }
 .question-btn {
@@ -433,6 +435,9 @@ h1 {
   animation: highlight 1s infinite;
 }
 
+.anim {
+  animation: highlight 1s infinite;
+}
 .btn-group {
   display: flex;
   gap: 0.5rem;
