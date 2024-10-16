@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What are the three typical orthographic views of drawing?",
+      "answers": {
+        "a": "Front,Top and Right side",
+        "b": "Front,Right side and Isometric",
+        "c": "Top,Bottom and Right side",
+        "d": "Top,Front and Left side"
+      },
+      "explanations": {
+        "a": "Correct, The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view.",
+        "b": "The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view.",
+        "c": "The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view.",
+        "d": "The right answer is (a). There are three orthographic views of drawing: 1) Front view 2) Top view and 3) Right side or side view."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which drawing below shows the top view?'<br> <img src=\"./images/image13.png\" width=200/>'",
+      "answers": {
+        "a": "<img src=\"./images/image28.png\" width=150/>",
+        "b": "<img src=\"./images/image30.png\" width=150/>",
+        "c": "<img src=\"./images/image24.png\" width=150/>",
+        "d": "<img src=\"./images/image20.png\" width=150/>"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Is this an orthographic or isometric view ?'<br> <img src=\"./images/image25.png\" width=200/>",
+      "answers": {
+        "a": "Isometric projection",
+        "b": "Orthographic projection",
+        "c": "Neither of those",
+        "d": "Need more information"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Identify the top view of the given projection.'<br> <img src=\"./images/image18.png\" width=200/>",
+      "answers": {
+        "a": "<img src=\"./images/image23.png\" width=120/>",
+        "b": "<img src=\"./images/image11.png\" width=120/>",
+        "c": "<img src=\"./images/image3.png\" width=120/>",
+        "d": "<img src=\"./images/image4.png\" width=120/>"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In the term ortho-graphic, ‘orthos’ means?",
+      "answers": {
+        "a": "drawing",
+        "b": "projection",
+        "c": "straight",
+        "d": "view"
+      },
+      "explanations": {
+        "a": "The right answer is (c).",
+        "b": "The right answer is (c).",
+        "c": "Correct, The right answer is (c).",
+        "d": "The right answer is (c)."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
+}
