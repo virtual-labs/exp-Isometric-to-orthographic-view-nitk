@@ -10,12 +10,12 @@
         "d": "<img src=\"./images/image10.png\" width=80/>"
       },
       "explanations": {
-        "a": "The right answer is (b).",
-        "b": "Correct, the right answer is (b).",
-        "c": "The right answer is (b).",
-        "d": "The right answer is (b)."
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
