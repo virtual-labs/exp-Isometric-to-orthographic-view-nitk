@@ -44,12 +44,12 @@
         "d": "Need more information"
       },
       "explanations": {
-        "a": "The right answer is (b).",
-        "b": "Correct, the right answer is (b).",
-        "c": "The right answer is (b).",
-        "d": "The right answer is (b)."
+        "a": "Correct, the right answer is (a).",
+        "b": "The right answer is (a).",
+        "c": "The right answer is (a).",
+        "d": "The right answer is (a)."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
@@ -70,7 +70,7 @@
       "difficulty": "advanced"
     },
     {
-      "question": "In the term ortho-graphic, ‘orthos’ means images",
+      "question": "In the term ortho-graphic, ‘orthos’ means?",
       "answers": {
         "a": "drawing",
         "b": "projection",
@@ -83,7 +83,7 @@
         "c": "Correct, The right answer is (c).",
         "d": "The right answer is (c)."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "advanced"
     }
   ]
