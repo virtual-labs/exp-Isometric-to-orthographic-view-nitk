@@ -1,13 +1,150 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <!-- <script defer src="https://code.jquery.com/jquery.min.js"></script> -->
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://code.jquery.com/ui/1.8.17/jquery-ui.min.js"
+    ></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+    ></script>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+  </head>
+  <body>
+    <div class="title-div-container">
+      <div class="title-div">
+          <div class="logo-div">
+            <a href="#"><img src="images/logo_nitk.png" alt="Logo" class="logo" /></a>
+          </div>
+          <h1>Isometric to Orthographic view</h1>
+        </div>
+      </div>
+    <div class="container">
+      <div class="sidebar">
+        <ul class="tool-menu">
+          <li class="tool-list tool-objective" onclick="displayDiv(this)">
+            <a class="tool-link" title="Objective"
+              >
+              <img src="./images/objective.png" alt="Objective" class="icons">
+            </a>
+            <span>Objective</span>
+          </li>
+          <li class="tool-list tool-apparatus" onclick="displayDiv(this)">
+            <a class="tool-link" title="Apparatus"
+              ><img src="./images/apparatus.png" alt="Objective" class="icons"></a
+              >
+              <span>Apparatus</span>
+          </li>
+          
+          <li class="tool-list tool-practice" onclick="displayDiv(this)">
+            <a class="tool-link" title="solution"
+              ><img src="./images/solution.png" alt="Solution" class="icons"
+              ></a
+              >
+              <span>Solution</span>
+          </li>
+        </ul>
+      </div> 
+      <div class="main">
+        <div class="main-section">
+          <div id="simulation" class="main__task-div">
+            <h3 class="task-title">Objective</h3>
+           
+            <div class="canvas__div">
+              <div class="task-screen objective">
+                <!-- <h3 class="objective__title">Objective</h3> -->
+                <p class="objective__sub">To Orthographic View</p>
+                <p class="objective__main">To convert the isometric view of a solid to all types of orthographic view. We are going to draw the front, Top and side view from the isometric view of solid.
+              </p>
+              </div>
+              <div class="task-screen apparatus hide">
+                <!-- <h3 class="apparatus__title">Apparatus</h3> -->
+                <div class="apparatus-screen">
+                  <div class="apparatus-tool">
+                    <img src="./images/compass.jpeg" alt="compass" class="tool-img">
+                    <span>Compass</span>
+                  </div>
+                  <div class="apparatus-tool">
+                    <img src="./images/Drafter.jpeg" alt="drafter" class="tool-img">
+                    <span>Drafter</span>
+                  </div>
+                  <div class="apparatus-tool">
+                    <img src="./images/ruler.png" alt="ruler" class="tool-img">
+                    <span>Ruler</span>
+                  </div>
+                </div>
+              </div>
+              <div class="task-screen practice hide">
+                <div class="practice-steps">
+                  <span class="practice-step-no">1</span>
+                  <span class="practice-step-info">Draw the front view</span>
+                  <div class="btn-group">
+                    <button class="btn btn-next" title="Next" disabled>></button>
+                    <button class="btn btn-reset" title="Reset">↺</button>
+                  </div>
+                  
+                </div>
+                <div class="quiz-div hide">
+                  <p class="question"></p>
+                  <div class="answers">
+                  </div>
+                </div>
+                <p class="final-statement hide">Well Done! The conversion of the isometric view to the orthographic view is successful.</p>
+                <div class="practice-steps-additional">
+             
+                  <button class="btn btn-axis anim hide">Draw Axis</button>
+                  <button class="btn btn-vp-hp anim hide">Draw the front view</button>
+                  <button class="btn btn-pyramid anim hide">Draw Pyramid</button>
+                  <button class="btn btn-a anim hide">Project the line down</button>
+                  <button class="btn btn-c anim hide">Draw the top view</button>
+                  <button class="btn btn-b anim hide"> Project lines to Profile plane</button>
+                  <button class="btn btn-d anim hide">Connect the lines</button>
+                  <button class="btn btn-e anim hide">Draw the side view</button>
+                  <!-- <button class="btn btn-f hide">Project the lines up </button>
+                  <button class="btn btn-g hide">Draw the pyramid up</button> -->
+                      <img id="question" src="images/question.png" style="display: none;width: 70%; "/>
+                      <p id="supptext" class="steptext incanvas" style="display: none; ">Isometric view</p>
+    
+                  
+                </div>
+                <canvas id="simscreen" width="750" height="500" class="canvas hide"></canvas>
+                <button class="btn btn-top hide" title="Move to Top">↑</button>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="main__task-div footer">
+            <p>Copyright © SOLVE The Virtual Lab @ NITK Surathkal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="js/script.js"></script>
+  </body>
 </html>
