@@ -258,14 +258,14 @@ function nameVPHP() {
   ctx.beginPath();
   ctx.moveTo(10, 450);
   ctx.arc(10, 450, 7, 0, 2 * Math.PI);
-  ctx.fillStyle = "#3590ae";
+  ctx.fillStyle = "#d9b28a";
   ctx.fill();
   ctx.closePath();
 
   ctx.beginPath();
   ctx.moveTo(10, 430);
   ctx.arc(10, 430, 7, 0, 2 * Math.PI);
-  ctx.fillStyle = "#d9b28a";
+  ctx.fillStyle = "#3590ae";
   ctx.fill();
   ctx.closePath();
 }
