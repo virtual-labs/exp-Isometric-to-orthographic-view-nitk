@@ -5,6 +5,8 @@
 | SNo. |        Name         | Institute |              Department              |
 | :--: | :-----------------: | :-------: | :----------------------------------: |
 |  1   | Dr. K V Gangadharan |   NITK    | Department of Mechanical Engineering |
+|  2   | Dr. P.S Suvin |   NITK    | Department of Mechanical Engineering |
+|  3   | Dr. A.S.S Balan |   NITK    | Department of Mechanical Engineering |
 
 ### Lab Developers:
 
